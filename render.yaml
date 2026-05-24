@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: TalentLens Backend
+    env: python
+    plan: free
+    branch: main
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: uvicorn backend.server:app --host 0.0.0.0 --port ${PORT}
+    envVars:
+      - key: MONGO_URL
+        fromSecret: MONGO_URL
+      - key: DB_NAME
+        fromSecret: DB_NAME
+      - key: MAIL_USERNAME
+        fromSecret: MAIL_USERNAME
+      - key: MAIL_PASSWORD
+        fromSecret: MAIL_PASSWORD
+      - key: MAIL_FROM
+        fromSecret: MAIL_FROM
+      - key: MAIL_SERVER
+        fromSecret: MAIL_SERVER
+      - key: MAIL_PORT
+        fromSecret: MAIL_PORT
+    healthCheckPath: /api/
+    autoDeploy: true
