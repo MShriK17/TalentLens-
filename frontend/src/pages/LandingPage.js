@@ -775,18 +775,18 @@ const LandingPage = () => {
 
         {/* Social Media */}
         <div className="flex gap-4 mt-4">
-          <a href="https://www.linkedin.com/in/prasen-nimje/" target="_blank" rel="noopener noreferrer" className="hover:text-[#D9F99D] transition-colors">
+          <a href="https://www.linkedin.com/in/mahesh-k23/" target="_blank" rel="noopener noreferrer" className="hover:text-[#D9F99D] transition-colors">
             <Linkedin className="w-5 h-5" />
           </a>
          <a
-          href="https://x.com/Prasen_08"
+          href="https://x.com/MK07660036"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-[#D9F99D] transition-colors"
             >
           <Twitter className="w-5 h-5" />
           </a>
-          <a href="https://github.com/Prasen8" target="_blank" rel="noopener noreferrer" className="hover:text-[#D9F99D] transition-colors">
+          <a href="https://github.com/MShriK17" target="_blank" rel="noopener noreferrer" className="hover:text-[#D9F99D] transition-colors">
             <Github className="w-5 h-5" />
           </a>
         </div>
@@ -808,7 +808,7 @@ const LandingPage = () => {
           </div>
           <div className="flex items-center gap-3">
             <Phone className="w-4 h-4 text-[#D9F99D]" />
-            <span>+91 8421587121</span>
+            <span>+91 9552780132</span>
           </div>
           <div className="flex items-start gap-3">
             <MapPin className="w-4 h-4 text-[#D9F99D] mt-1" />
